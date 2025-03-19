@@ -1,0 +1,8 @@
+# Here we define what is the default target when we run `cargo build`
+[build]
+target = "thumbv7em-none-eabihf"
+
+# Here we define what is the executed command when we run `cargo run`.
+# In this case we are calling our flash and debug tool for our chip.
+[target.thumbv7em-none-eabihf]
+runner = 'probe-rs run --chip STM32L412KBUx'

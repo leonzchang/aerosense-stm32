@@ -1,0 +1,2 @@
+# Aerosense STM32
+`aerosense-stm32` is a project aimed at detecting CO2 levels using STM32 microcontrollers. The project utilizes the `cortex-m` ecosystem for low-level embedded development to interface with CO2 sensors.
